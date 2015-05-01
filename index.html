@@ -33,11 +33,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Oppidan IT LLC</a>
+          <div>
+            <img src="images/logo.png" alt="Oppidan IT" height="auto" width="150px" />
+            <span class="logo-text">Oppidan IT LLC</span>
+          </div>
         </div>
 
         <div class="nav-contact">
-          <p>Get a Quote | (347) 687-4070 | sales@oppidanit.com</p>
+          <p>Get a Quote | <i class="fa fa-phone"></i> (347) 687-4070 | <i class="fa fa-envelope-o"></i> <a href="mailto:sales@oppidanit.com?Subject=sales%20inquiry" target="_top">sales@oppidanit.com</a></p>
         </div>
 
         <div class="collapse navbar-collapse" id="navbar-collapse-main">
@@ -45,7 +48,6 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#information">Information</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -72,7 +74,7 @@
           <div class="col-sm-6">
             <div class="about-img-container">
               <br />
-              <img src="https://www.placehold.it/650x300/0F2C4E&text=Company + Logo" alt="" />
+              <img src="images/logo.png" alt="Oppidan IT" />
             </div>
           </div>
           <div class="col-sm-6 text-center">
@@ -87,74 +89,40 @@
     <!-- third section - Services -->
     <div id="services" class="pad-section">
       <div class="container">
-        <h2 class="text-center">Our Services</h2> <hr />
-      
-
+        <h2 class="text-center">Our Services</h2> 
+        <hr>
+        
         <div class="row text-center">
-          <div class="col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <i class="glyphicon fa fa-server"> </i>
-            <h4>New Business Setup</h4>
+            <h3>New Business Setup</h3>
             <p>Our team of experts will deliver you a one stop IT service solution for all your basic new business startup needs.</p>
+            <a href="#setup" class="btn btn-warning btn-md">Learn More</a>
           </div>
-          <div class="col-sm-3 col-xs-6">
-            <i class="glyphicon fa fa-database"></i>
-            <h4>Service 2</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
-          </div>
-          <div class="col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <i class="glyphicon fa fa-desktop"></i>
-            <h4>Integration</h4>
+            <h3>Integration</h3>
             <p>IT project work focused on the execution of your business requirements, project managed by us.</p>
+            <a href="#integration" class="btn btn-warning btn-md">Learn More</a>
           </div>
-          <div class="col-sm-3 col-xs-6">
+          <div class="col-sm-4 col-xs-12">
             <i class="glyphicon fa fa-cogs"> </i>
-            <h4>Remote Hands</h4>
-            <p>Our team of dedicated engineers/subject matter experts are readily available to consult whether you need assistance with an existing project, break fix issues, or on an ad hoc basis.</p>
+            <h3>Remote Hands</h3>
+            <p>Our team of dedicated engineers/subject matter experts are readily available for consultation.</p>
+            <a href="#hands" class="btn btn-warning btn-md">Learn More</a>
           </div>
         </div>
 
+        <br />
 
-        <div class='wrapper'>
-          <input id='pictures' type='checkbox'>
-          <label for='pictures'>
-            <p>Monitoring</p>
-            <div class='lil_arrow'></div>
-            <div class='content'>
-              <ul>
-                <li>SNMP monitoring with notification and support</li>
-                <li>Syslog monitoring with notification and support</li>
-                <li>Temperature /environmental monitoring with notification and support</li>
-                <li>Application service monitoring with notification and support</li>
-                <li>FTP/CRON job monitoring with notification and support</li>
-                <li>Full system/network monitoring with notification and support</li>
-              </ul>
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>Network Services</h3>
+              <img src="images/network.jpg">
             </div>
-            <span></span>
-          </label>
-        </div>
-
-        <div class='wrapper'>
-          <input id='jobs' type='checkbox'>
-          <label for='jobs'>
-            <p>Business Continuity</p>
-            <div class='lil_arrow'></div>
-            <div class='content'>
-              <ul>
-                <li>Disaster recovery</li>
-                <li>Data management</li>
-                <li>Workgroup recovery/remote work stations</li>
-                <li>Business continuity planning</li>
-              </ul>
-            </div>
-            <span></span>
-          </label>
-        </div>
-
-        <div class='wrapper'>
-          <input id='events' type='checkbox'>
-          <label for='events'>
-            <p>Network</p>
-            <div class='lil_arrow'></div>
+          </div>
+          <div class='col-md-7'>
             <div class='content'>
               <ul>
                 <li>Dedicated Internet / public IP assignments</li>
@@ -162,19 +130,23 @@
                 <li>MPLS deployments</li>
                 <li>Router/Switch configuration, maintenance, deployment</li>
                 <li>WAN optimization</li>
-                <li>Network discovery/ network documentation (Visio mapping)</li>
+                <li>Network discovery</li>
+                <li>Network documentation (Visio mapping)</li>
               </ul>
             </div>
-            <span></span>
-          </label>
+          </div>
         </div>
-
-
-        <div class='wrapper'>
-          <input id='financial' type='checkbox'>
-          <label for='financial'>
-            <p>Security</p>
-            <div class='lil_arrow'></div>
+        <br />
+        
+        <span id="hands"></span>
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>Security Services</h3>
+              <img src="images/security.jpg">
+            </div>
+          </div>
+          <div class='col-md-7'>
             <div class='content'>
               <ul>
                 <li>IDS/IPS deployment</li>
@@ -182,15 +154,101 @@
                 <li>Network/system security audits</li>
               </ul>
             </div>
-            <span></span>
-          </label>
+          </div>
         </div>
+        <br />
 
-        <div class='wrapper'>
-          <input id='settings' type='checkbox'>
-          <label for='settings'>
-            <p>Hosting Services</p>
-            <div class='lil_arrow'></div>
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>Remote Hands Services</h3>
+              <img src="images/hands.jpg">
+            </div>
+          </div>
+          <div class='col-md-7'>
+            <div class='content'>
+              <ul>
+                <li>Assistance with an existing project</li>
+                <li>Break fix issues, or on an ad hoc basis.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>Business Continuity</h3>
+              <img src="images/business.jpg">
+            </div>
+          </div>
+          <div class='col-md-7'>
+            <div class='content'>
+              <ul>
+                <li>Disaster recovery</li>
+                <li>Data management</li>
+                <li>Workgroup recovery</li>
+                <li>Remote work stations</li>
+                <li>Business continuity planning</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <span id="integration"></span>
+
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>Monitoring</h3>
+              <img src="images/monitor.jpg">
+            </div>
+          </div>
+          <div class='col-md-7'>
+            <div class='content'>
+              <ul>
+                <li>SNMP and Syslog monitoring with notification and support</li>
+                <li>Temperature /environmental monitoring with notification and support</li>
+                <li>Application service monitoring with notification and support</li>
+                <li>FTP/CRON job monitoring with notification and support</li>
+                <li>Full system/network monitoring with notification and support</li>
+              </ul>
+            </div>
+          </div>
+        </div>        
+        <br />
+
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>Integration Services</h3>
+              <img src="images/integration.jpg">
+            </div>
+          </div>
+           <div class='col-md-7'>
+            <div class='content'>
+              <ul>
+                <li>Detailed project plan (design proposal, statement of work, implementation proposal)</li>
+                <li>Dedicated project manager</li>
+                <li>Pre/post implementation engineers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+
+
+        <span id="setup"></span>
+
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>Hosting Services</h3>
+              <img src="images/hosting.jpg">
+            </div>
+          </div>
+          <div class='col-md-7'>
             <div class='content'>
               <ul>
                 <li>Application service provider hosting via cloud computing</li>
@@ -207,15 +265,18 @@
                 <li>Server Backup Solutions</li>
               </ul>
             </div>
-            <span></span>
-          </label>
+          </div>
         </div>
+        <br />
 
-        <div class='wrapper'>
-          <input id='setup' type='checkbox'>
-          <label for='setup'>
-            <p>New Business Setup</p>
-            <div class='lil_arrow'></div>
+        <div class="row">
+          <div class='col-md-5'>
+            <div class="services-wrapper">
+              <h3>New Business Setup</h3>
+              <img src="images/setup.jpg">
+            </div>
+          </div>
+          <div class='col-md-7'>
             <div class='content'>
               <ul>
                 <li>Business website creation/ maintenance</li>
@@ -228,24 +289,7 @@
                 <li>Dedicated systems, hosted as an option</li>
               </ul>
             </div>
-            <span></span>
-          </label>
-        </div>
-
-        <div class='wrapper'>
-          <input id='integration' type='checkbox'>
-          <label for='integration'>
-            <p>Integration</p>
-            <div class='lil_arrow'></div>
-            <div class='content'>
-              <ul>
-                <li>Detailed project plan (design proposal, statement of work, implementation proposal)</li>
-                <li>Dedicated project manager</li>
-                <li>Pre/post implementation engineers</li>
-              </ul>
-            </div>
-            <span></span>
-          </label>
+          </div>
         </div>
 
       </div>
@@ -253,77 +297,11 @@
     <!-- /third section -->
 
 
-    <!-- fourth section - Information -->
-    <div id="information" class="pad-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h2 class="panel-title">HOSTING SERVICES</h2>
-              </div>
-              <div class="panel-body lead">
-                <ul>
-                  <li>Application service provider hosting via cloud computing</li>
-                  <li>Dedicated / shared environments. (Windows VM / Linux VM)</li>
-                  <li>Enterprise and private cloud</li>
-                  <li>Hosted Microsoft Exchange®</li>
-                  <li>Microsoft ActiveSync for Android and IOS devices</li>
-                  <li>Blackberry® Enterprise Server</li>
-                  <li>Platform-as-a-Service</li>
-                  <li>SMS relays</li>
-                  <li>Database server</li>
-                  <li>Web Applications</li>
-                  <li>FTP/FTPS SFTP FILE servers</li>
-                  <li>Server Backup Solutions</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h2 class="panel-title">NEW BUSINESS SETUP</h2>
-              </div>
-              <div class="panel-body lead">
-               <p>Our team of experts will deliver you a one stop IT service solution for all your basic new business startup needs.</p>
-               <ul>
-                 <li>Business website creation/ maintenance</li>
-                 <li>LAN network setup with networking deployment kits for your small/medium business</li>
-                 <li>WAN network setup with dedicated internet with the option for point to point/mpls/vpn services</li>
-                 <li>VoIP solution with a phone system/ PBX and voice mail system, FAX as an option</li>
-                 <li>Private Cloud Virtualization</li>
-                 <li>Datacenter or Colo Planning</li>
-                 <li>File system for storage, SAN as an option</li>
-                 <li>Dedicated systems, hosted as an option</li>
-               </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /fourth section -->
-
-    <!-- fifth section -->
-    <div id="services" class="pad-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <h3>We excel at providing the most robust service offering, with process driven high availability support, at a price your organization can value.</h3>
-            <br />
-            <a href="#about" class="btn btn-warning btn-lg">Ask us for a Quote</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /fifth section -->
-
     <div class="space">
     </div>
 
     <!-- slider -->
-    <div class="flexslider-container">
+<!--     <div class="flexslider-container">
       <div class="flexslider">
         <ul class="slides">
           <li>
@@ -337,21 +315,43 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <!-- slider -->
+
+    <!-- fifth section -->
+    <div id="services" class="pad-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h3>We excel at providing the most robust service offering, with process driven high availability support, at a price your organization can value.</h3>
+            <br />
+            <a href="mailto:sales@oppidanit.com?Subject=sales%20inquiry" target="_top" class="btn btn-warning btn-lg">E-mail Us For A Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /fifth section -->
 
 
     <!-- footer -->
     <footer>
-      <hr />
       <div class="container" id="contact">
-        <p class="text-left">
-          Connect with us: 
-          <i class="fa fa-facebook"></i> |
-          <i class="fa fa-linkedin"></i> |
-          <i class="fa fa-google-plus"></i>
-        </p>
-        <p class="text-right">Copyright &copy; Oppidan IT LLC 2015</p>
+        <div>
+          <img src="images/logo.png" alt="Oppidan IT" height="auto" width="150px" />
+          <span class="logo-text">Oppidan IT LLC</span>
+        </div>
+        <div class="text-left">
+          Contact Us: 
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <a href="mailto:sales@oppidanit.com?Subject=sales%20inquiry" target="_top">sales@oppidanit.com</a>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>(347) 687-4070</span>
+          </div>
+        </div>
+        <div class="text-right">Copyright &copy; Oppidan IT LLC 2015</div>
       </div>
     </footer>
     <!-- /footer -->
@@ -361,10 +361,8 @@
 </html>
 
 
-<!-- http://negativespace.co/photos/network-router/ -->
 
-<!-- http://negativespace.co/photos/computer/ -->
- 
+  
 
 
 
