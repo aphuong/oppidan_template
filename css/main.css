@@ -141,7 +141,7 @@ footer .glyphicon:hover {
 .navbar-default .navbar-nav > li > a {
   color: #333;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -213,6 +213,31 @@ footer .glyphicon:hover {
 @media (max-width: 600px) {
   #services .row {
     width: 100%;
+  }
+  .nav-contact {
+    font-size: 12px;
+    padding-top: 0;
+    text-align: center;
+  }
+  
+  footer, 
+  .text-left,
+  .text-right {
+    text-align: center;
+  }
+
+  .text-right {
+    padding-top: 20px;
+  }
+
+  #home {
+    background: url(../images/connections.jpg) fixed; 
+    height: 65%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
