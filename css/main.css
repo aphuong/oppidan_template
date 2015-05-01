@@ -231,13 +231,13 @@ footer .glyphicon:hover {
   }
 
   #home {
-    background: url(../images/connections.jpg) fixed; 
+    background: url(../images/connections.jpg); 
     height: 65%;
     width: 100%;
-    -webkit-background-size: cover;
+   /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
   }
 }
 
